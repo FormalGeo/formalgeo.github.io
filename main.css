@@ -1,0 +1,66 @@
+body {
+    padding-top: 3.5rem;
+    font-size: 18px;
+    float: left;
+    margin-left: 20%;
+}
+
+nav {
+    background-color: #031a2f;
+    font-size: 22px;
+}
+
+#navbar-icon {
+    width: 20%;
+    height: auto;
+}
+
+.profile {
+    display: inline-block;
+    width: 180px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+}
+
+
+h3 {
+    font-size: 30px;
+    padding-top: 80px;
+    margin-top: -80px;
+}
+
+a:link {
+    color: #00447C;
+}
+
+a:hover {
+    color: DODGERBLUE;
+}
+
+a:visited {
+    color: #00447C;
+}
+
+i.icon-hover-change:hover {
+    color: DODGERBLUE;
+    font-size: 30px;
+}
+
+a.icon-link {
+    text-decoration: none;
+}
+
+#div-image {
+    float: left;
+    width: 30%;
+    padding-top: 60px;
+    margin-left: -280px;
+}
+
+#div-bio {
+    padding-top: 50px;
+    font-size: 18px
+}
