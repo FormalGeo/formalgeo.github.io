@@ -28,15 +28,18 @@
             <li class="nav-item">
                 <a class="nav-link" href="#Publications">Publications</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#Projects">Projects</a>
-            </li>
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" href="#Projects">Projects</a>-->
+<!--            </li>-->
             <li class="nav-item">
                 <a class="nav-link" href="#Datasets">Datasets</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#Members">Members</a>
             </li>
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" href="#Former Members">Former Members</a>-->
+<!--            </li>-->
             <li class="nav-item">
                 <a class="nav-link" href="#Contact">Contact</a>
             </li>
@@ -79,7 +82,7 @@
                 <ul>
                     <li>
                         <strong><a href="https://arxiv.org/abs/2310.18021" target="_blank">
-                            FormalGeo: The First Step Toward Human-like IMO-level Geometric Automated Reasoning
+                            FormalGeo: An Extensible Formalized Framework for Olympiad Geometric Problem Solving
                         </a></strong>
                     </li>
                 </ul>
@@ -119,12 +122,19 @@
                 <ul>
                     <li>
                         <strong><a href="https://github.com/PersonNoName/FGeoDRL" target="_blank">
-                            FGeoDRL: Formal geometric problem solving based on deep reinforcement learning.
+                            FGeo-DRL: Formal geometric problem solving based on deep reinforcement learning.
+                        </a></strong>
+                    </li>
+
+                    <li>
+                        <strong><a href="https://github.com/748978460/FGeo-TP" target="_blank">
+                            FGeo-TP: A Language Model-Enhanced Solver for Geometry Problems
                         </a></strong>
                     </li>
                     <li>
-                        <strong><a href="https://github.com/BitSecret/PGPS" target="_blank">
-                            PGPS: Plane geometric problem solving based on hyper graph neural network.
+                        <strong><a href="https://github.com/BitSecret/HyperGNet" target="_blank">
+                            FGeo-HyperGNet: Geometry Problem Solving Integrating Formal Symbolic System and Hypergraph
+                            Neural Network
                         </a></strong>
                     </li>
                 </ul>
@@ -151,12 +161,14 @@
         <li>
             <strong>[Dec 20, 2023]</strong>
             <strong style="color: red; ">New!</strong>
-            The project <a href="https://github.com/FormalGeo/FormalGeo" target="_blank">FormalGeo</a> has been open-sourced.
+            The project <a href="https://github.com/FormalGeo/FormalGeo" target="_blank">FormalGeo</a> has been
+            open-sourced.
         </li>
         <li>
             <strong>[Dec 20, 2023]</strong>
             <strong style="color: red; ">New!</strong>
-            The project <a href="https://github.com/FormalGeo/Datasets" target="_blank">Datasets</a> has been open-sourced.
+            The project <a href="https://github.com/FormalGeo/Datasets" target="_blank">Datasets</a> has been
+            open-sourced.
         </li>
         <li>
             <strong>[Nov 19, 2023]</strong>
@@ -181,15 +193,105 @@
     <h3 id="Publications" style="">Publications</h3>
     <hr>
 
-    <!-- FormalGeo -->
+    <!-- FGeo-HyperGNet -->
+    <div class="row">
+        <div class="col-md-3" style="padding-top: 35px">
+            <img class="img-fluid img-rounded" src="imgs/arxiv2024hypergnet.png" alt="">
+        </div>
+        <div class="col-md-9">
+            <strong> FGeo-HyperGNet: Geometry Problem Solving Integrating Formal Symbolic System and Hypergraph Neural
+                Network </strong>
+            <br>
+            <em>Xiaokai Zhang, Na Zhu, Yiming He, ..., and Tuo Leng</em>
+            <br>
+            We built a neural-symbolic system to automatically perform human-like geometric deductive reasoning. The
+            symbolic part is a formal system built on FormalGeo and the neural part is a hypergraph neural network based
+            on the attention mechanism.
+            <br>
+            <strong><a href="" target="_blank">TBC&nbsp;</a></strong>
+            <a href="papers/arxiv2024hypergnet.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
+            <a href="" target="_blank"> <small>[Project]&nbsp;</small></a>
+            <a href="bibs/arxiv2024hypergnet.txt" target="_blank"> <small>[BibTex]</small></a><br>
+        </div>
+    </div>
+    <hr>
+
+    <!-- FGeo-DRL -->
     <div class="row">
         <div class="col-md-3" style="padding-top: 20px">
+            <img class="img-fluid img-rounded" src="imgs/symmetry2024drl.png" alt="">
+        </div>
+        <div class="col-md-9">
+            <strong> FGeo-DRL:Deductive Reasoning for Geometric Problems through Deep Reinforcement Learning </strong>
+            <br>
+            <em>Jia Zou, Xiaokai Zhang, Yiming He, ..., and Tuo Leng</em>
+            <br>
+            We built a neural-symbolic system, called FGeoDRL, to automatically perform human-like geometric deductive
+            reasoning. The neural part is an AI agent based on reinforcement learning and the symbolic part is a
+            reinforcement learning environment based on geometry formalization theory and FormalGeo.
+            <br>
+            <strong><a href="https://arxiv.org/abs/2402.09051" target="_blank">TBC&nbsp;</a></strong>
+            <a href="papers/symmetry2024drl.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
+            <a href="" target="_blank"> <small>[Project]&nbsp;</small></a>
+            <a href="bibs/symmetry2024drl.txt" target="_blank"> <small>[BibTex]</small></a><br>
+        </div>
+    </div>
+    <hr>
+
+    <!-- FGeo-TP -->
+    <div class="row">
+        <div class="col-md-3" style="padding-top: 5px">
+            <img class="img-fluid img-rounded" src="imgs/symmetry2024tp.png" alt="">
+        </div>
+        <div class="col-md-9">
+            <strong> FGeo-TP: A Language Model-Enhanced Solver for Geometry Problems </strong>
+            <br>
+            <em>Yiming He, Jia Zou, Xiaokai Zhang, ..., and Tuo Leng</em>
+            <br>
+            we introduced FGeo-TP (Theorem Predictor), which utilizes the language model to predict theorem sequences
+            for solving geometry problems. Our results demonstrate a significant increase in the problem-solving success
+            rate of the language model-enhanced FGeo-TP on the FormalGeo7k dataset, rising from 39.7% to 80.86%.
+            <br>
+            <strong><a href="https://arxiv.org/abs/2402.09047" target="_blank">TBC&nbsp;</a></strong>
+            <a href="papers/symmetry2024tp.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
+            <a href="" target="_blank"> <small>[Project]&nbsp;</small></a>
+            <a href="bibs/symmetry2024tp.txt" target="_blank"> <small>[BibTex]</small></a><br>
+        </div>
+    </div>
+    <hr>
+
+    <!-- FGeo-SSS -->
+    <div class="row">
+        <div class="col-md-3" style="padding-top: 20px">
+            <img class="img-fluid img-rounded" src="imgs/symmetry2024sss.png" alt="">
+        </div>
+        <div class="col-md-9">
+            <strong> FGeo-SSS: A Search-Based Symbolic Solver for Human-Like Automated Geometric Reasoning </strong>
+            <br>
+            <em>Xiaokai Zhang, Na Zhu, Yiming He, ..., and Tuo Leng</em>
+            <br>
+            Based on the geometry formalization theory and the FormalGeo geometric formal system, we have developed the
+            Formal Geometric Problem Solver (FGPS) in Python, which can serve as an interactive assistant for verifying
+            problem-solving processes and as an automated problem solver that utilizes a variable search-based method
+            and strategy.
+            <br>
+            <strong><a href="" target="_blank">TBC&nbsp;</a></strong>
+            <a href="papers/symmetry2024sss.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
+            <a href="" target="_blank"> <small>[Project]&nbsp;</small></a>
+            <a href="bibs/symmetry2024sss.txt" target="_blank"> <small>[BibTex]</small></a><br>
+        </div>
+    </div>
+    <hr>
+
+    <!-- FormalGeo -->
+    <div class="row">
+        <div class="col-md-3" style="padding-top: 10px">
             <img class="img-fluid img-rounded" src="imgs/arxiv2023formalgeo.png" alt="">
         </div>
         <div class="col-md-9">
-            <strong> FormalGeo: The First Step Toward Human-like IMO-level Geometric Automated Reasoning </strong>
+            <strong> FormalGeo: An Extensible Formalized Framework for Olympiad Geometric Problem Solving </strong>
             <br>
-            <em>Xiaokai Zhang, Na Zhu, Yiming He, Jia Zou, ..., and Tuo Leng</em>
+            <em>Xiaokai Zhang, Na Zhu, Yiming He, ..., and Tuo Leng</em>
             <br>
             We have constructed a consistent formal plane geometry system. This will serve as a crucial
             bridge between IMO-level plane geometry challenges and readable AI automated reasoning. With this formal
@@ -205,51 +307,49 @@
 </div>
 <br>
 
-<!-- Projects -->
-<div class="container">
-    <h3 id="Projects" style="">Projects</h3>
-    <hr>
+<!--&lt;!&ndash; Projects &ndash;&gt;-->
+<!--<div class="container">-->
+<!--    <h3 id="Projects" style="">Projects</h3>-->
+<!--    <hr>-->
 
-    <!-- FormalGeo -->
-    <div class="row">
-        <div class="col-md-3" style="padding-top: 45px">
-            <img class="img-fluid img-rounded" src="imgs/project_formalgeo.png" alt="project_formalgeo">
-        </div>
-        <div class="col-md-9">
-            <strong><a href="https://github.com/FormalGeo/FormalGeo" target="_blank">FormalGeo</a></strong>
-            <br>
-            <strong>Formal representation and solving for Euclidean plane geometry problems.</strong>
-            <br>
-            <em>Xiaokai Zhang</em>
-            <br>
-            Guided by the geometry formalization theory, we design formal geometric problem solvers that implement
-            parsing of geometry formal language, execution of geometry predicate logic, a joint solving framework for
-            relational reasoning and algebraic computation, and search-based automatic solving algorithms, among others.
-        </div>
-    </div>
-    <hr>
+<!--    &lt;!&ndash; FormalGeo &ndash;&gt;-->
+<!--    <div class="row">-->
+<!--        <div class="col-md-3" style="padding-top: 35px">-->
+<!--            <img class="img-fluid img-rounded" src="imgs/project_formalgeo.png" alt="project_formalgeo">-->
+<!--        </div>-->
+<!--        <div class="col-md-9">-->
+<!--            <strong><a href="https://github.com/FormalGeo/FormalGeo" target="_blank">FormalGeo: </a></strong>-->
+<!--            <strong>Formal representation and solving for Euclidean plane geometry problems.</strong>-->
+<!--            <br>-->
+<!--            <em>Xiaokai Zhang</em>-->
+<!--            <br>-->
+<!--            Guided by the geometry formalization theory, we design formal geometric problem solvers that implement-->
+<!--            parsing of geometry formal language, execution of geometry predicate logic, a joint solving framework for-->
+<!--            relational reasoning and algebraic computation, and search-based automatic solving algorithms, among others.-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <hr>-->
 
-    <!-- Datasets -->
-    <div class="row">
-        <div class="col-md-3" style="padding-top: 20px">
-            <img class="img-fluid img-rounded" src="imgs/project_datasets.png" alt="project_datasets">
-        </div>
-        <div class="col-md-9">
-            <strong><a href="https://github.com/FormalGeo/Datasets" target="_blank">Datasets</a></strong>
-            <br>
-            <strong>Dataset Annotation Tools and Dataset Release for formal Euclidean plane geometry problems.</strong>
-            <br>
-            <em>Xiaokai Zhang</em>
-            <br>
-            This project is used for the design and release of geometry formal systems and datasets. It currently
-            includes 2 formal systems, GFS-BASIC and GFS-IMO, and the corresponding datasets formalgeo7k and
-            formalgeo-imo.
-        </div>
-    </div>
-    <hr>
+<!--    &lt;!&ndash; Datasets &ndash;&gt;-->
+<!--    <div class="row">-->
+<!--        <div class="col-md-3" style="padding-top: 20px">-->
+<!--            <img class="img-fluid img-rounded" src="imgs/project_datasets.png" alt="project_datasets">-->
+<!--        </div>-->
+<!--        <div class="col-md-9">-->
+<!--            <strong><a href="https://github.com/FormalGeo/Datasets" target="_blank">Datasets: </a></strong>-->
+<!--            <strong>Dataset Annotation Tools and Dataset Release for formal Euclidean plane geometry problems.</strong>-->
+<!--            <br>-->
+<!--            <em>Xiaokai Zhang</em>-->
+<!--            <br>-->
+<!--            This project is used for the design and release of geometry formal systems and datasets. It currently-->
+<!--            includes 2 formal systems, GFS-BASIC and GFS-IMO, and the corresponding datasets formalgeo7k and-->
+<!--            formalgeo-imo.-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <hr>-->
 
-</div>
-<br>
+<!--</div>-->
+<!--<br>-->
 
 <!-- Datasets -->
 <div class="container">
@@ -328,11 +428,24 @@
             </a>
             <p>Yiming He<sup>1,2,3</sup></p>
         </div>
+        <br>
         <div class="profile">
             <a href="https://github.com/PersonNoName" target="_blank">
                 <img class="profile-img" src="imgs/jiazou.jpg" alt="Jia Zou">
             </a>
             <p>Jia Zou<sup>1,2,3</sup></p>
+        </div>
+        <div class="profile">
+            <a href="https://github.com/Vench115" target="_blank">
+                <img class="profile-img" src="imgs/chengqin.png" alt="Cheng Qin">
+            </a>
+            <p>Cheng Qin<sup>1,2,3</sup></p>
+        </div>
+        <div class="profile">
+            <a href="https://github.com/leeyoung628" target="_blank">
+                <img class="profile-img" src="imgs/yangli.jpg" alt="Yang Li">
+            </a>
+            <p>Yang Li<sup>1,3</sup></p>
         </div>
     </div>
     <div style="text-align:center; display: inline-block; width: 100%; margin-top: 0">
@@ -351,6 +464,23 @@
     </div>
 </div>
 <br>
+
+<!--&lt;!&ndash; Former Members &ndash;&gt;-->
+<!--<div class="container">-->
+<!--    <h3 id="Former Members" style="">Former Members</h3>-->
+<!--    <hr>-->
+<!--    <ul>-->
+<!--        <li>-->
+<!--            <a href="https://bitsecret.github.io" target="_blank"><strong>Xiao Ming</strong></a>, 2022.01 - 2024.06-->
+<!--            <br>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--            <a href="https://bitsecret.github.io" target="_blank"><strong>Xiao Ming</strong></a>, 2022.01 - 2024.06-->
+<!--            <br>-->
+<!--        </li>-->
+<!--    </ul>-->
+<!--</div>-->
+<!--<br>-->
 
 <!-- Contact -->
 <div class="container">

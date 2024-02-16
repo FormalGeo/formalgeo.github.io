@@ -1,8 +1,6 @@
-@misc{arxiv2023formalgeo,
-title={FormalGeo: The First Step Toward Human-like IMO-level Geometric Automated Reasoning}, 
-author={Xiaokai Zhang and Na Zhu and Yiming He and Jia Zou and Qike Huang and Xiaoxiao Jin and Yanjun Guo and Chenyang Mao and Zhe Zhu and Dengfeng Yue and Fangzhen Zhu and Yang Li and Yifan Wang and Yiwen Huang and Runan Wang and Cheng Qin and Zhenbing Zeng and Shaorong Xie and Xiangfeng Luo and Tuo Leng},
-year={2023},
-eprint={2310.18021},
-archivePrefix={arXiv},
-primaryClass={cs.AI}
+@article{zhang2023formalgeo,
+  title={FormalGeo: The First Step Toward Human-like IMO-level Geometric Automated Reasoning},
+  author={Zhang, Xiaokai and Zhu, Na and He, Yiming and Zou, Jia and Huang, Qike and Jin, Xiaoxiao and Guo, Yanjun and Mao, Chenyang and Zhu, Zhe and Yue, Dengfeng and others},
+  journal={arXiv preprint arXiv:2310.18021},
+  year={2023}
 }
