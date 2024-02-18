@@ -1,0 +1,8 @@
+@misc{he2024fgeotp,
+      title={FGeo-TP: A Language Model-Enhanced Solver for Geometry Problems}, 
+      author={Yiming He and Jia Zou and Xiaokai Zhang and Na Zhu and Tuo Leng},
+      year={2024},
+      eprint={2402.09047},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}

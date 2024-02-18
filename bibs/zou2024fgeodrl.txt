@@ -1,0 +1,8 @@
+@misc{zou2024fgeodrl,
+      title={FGeo-DRL: Deductive Reasoning for Geometric Problems through Deep Reinforcement Learning}, 
+      author={Jia Zou and Xiaokai Zhang and Yiming He and Na Zhu and Tuo Leng},
+      year={2024},
+      eprint={2402.09051},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}

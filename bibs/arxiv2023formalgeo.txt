@@ -1,6 +1,0 @@
-@article{zhang2023formalgeo,
-  title={FormalGeo: The First Step Toward Human-like IMO-level Geometric Automated Reasoning},
-  author={Zhang, Xiaokai and Zhu, Na and He, Yiming and Zou, Jia and Huang, Qike and Jin, Xiaoxiao and Guo, Yanjun and Mao, Chenyang and Zhu, Zhe and Yue, Dengfeng and others},
-  journal={arXiv preprint arXiv:2310.18021},
-  year={2023}
-}
