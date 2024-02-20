@@ -1,1 +1,8 @@
-TBC
+@misc{zhang2024fgeohypergnet,
+      title={FGeo-HyperGNet: Geometry Problem Solving Integrating Formal Symbolic System and Hypergraph Neural Network}, 
+      author={Xiaokai Zhang and Na Zhu and Yiming He and Jia Zou and Cheng Qin and Yang Li and Zhenbing Zeng and Tuo Leng},
+      year={2024},
+      eprint={2402.11461},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
