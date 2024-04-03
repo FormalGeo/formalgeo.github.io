@@ -1,8 +1,13 @@
-@misc{he2024fgeotp,
-      title={FGeo-TP: A Language Model-Enhanced Solver for Geometry Problems}, 
-      author={Yiming He and Jia Zou and Xiaokai Zhang and Na Zhu and Tuo Leng},
-      year={2024},
-      eprint={2402.09047},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI}
+@article{he2024fgeotp,
+AUTHOR = {He, Yiming and Zou, Jia and Zhang, Xiaokai and Zhu, Na and Leng, Tuo},
+TITLE = {FGeo-TP: A Language Model-Enhanced Solver for Euclidean Geometry Problems},
+JOURNAL = {Symmetry},
+VOLUME = {16},
+YEAR = {2024},
+NUMBER = {4},
+ARTICLE-NUMBER = {421},
+URL = {https://www.mdpi.com/2073-8994/16/4/421},
+ISSN = {2073-8994},
+ABSTRACT = {The application of contemporary artificial intelligence techniques to address geometric problems and automated deductive proofs has always been a grand challenge to the interdisciplinary field of mathematics and artificial intelligence. This is the fourth article in a series of our works, in our previous work, we established a geometric formalized system known as FormalGeo. Moreover, we annotated approximately 7000 geometric problems, forming the FormalGeo7k dataset. Despite the fact that FGPS (Formal Geometry Problem Solver) can achieve interpretable algebraic equation solving and human-like deductive reasoning, it often experiences timeouts due to the complexity of the search strategy. In this paper, we introduced FGeo-TP (theorem predictor), which utilizes the language model to predict the theorem sequences for solving geometry problems. The encoder and decoder components in the transformer architecture naturally establish a mapping between the sequences and embedding vectors, exhibiting inherent symmetry. We compare the effectiveness of various transformer architectures, such as BART or T5, in theorem prediction, and implement pruning in the search process of FGPS, thereby improving its performance when solving geometry problems. Our results demonstrate a significant increase in the problem-solving rate of the language model-enhanced FGeo-TP on the FormalGeo7k dataset, rising from 39.7% to 80.86%. Furthermore, FGeo-TP exhibits notable reductions in solution times and search steps across problems of varying difficulty levels.},
+DOI = {10.3390/sym16040421}
 }
