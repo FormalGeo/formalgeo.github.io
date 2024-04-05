@@ -1,8 +1,13 @@
-@misc{zou2024fgeodrl,
-      title={FGeo-DRL: Deductive Reasoning for Geometric Problems through Deep Reinforcement Learning}, 
-      author={Jia Zou and Xiaokai Zhang and Yiming He and Na Zhu and Tuo Leng},
-      year={2024},
-      eprint={2402.09051},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI}
+@article{zou2024fgeodrl,
+AUTHOR = {Zou, Jia and Zhang, Xiaokai and He, Yiming and Zhu, Na and Leng, Tuo},
+TITLE = {FGeo-DRL: Deductive Reasoning for Geometric Problems through Deep Reinforcement Learning},
+JOURNAL = {Symmetry},
+VOLUME = {16},
+YEAR = {2024},
+NUMBER = {4},
+ARTICLE-NUMBER = {437},
+URL = {https://www.mdpi.com/2073-8994/16/4/437},
+ISSN = {2073-8994},
+ABSTRACT = {Human-like automatic deductive reasoning has always been one of the most challenging open problems in the interdisciplinary field of mathematics and artificial intelligence. This paper is the third in a series of our works. We built a neural-symbolic system, named FGeo-DRL, to automatically perform human-like geometric deductive reasoning. The neural part is an AI agent based on deep reinforcement learning, capable of autonomously learning problem-solving methods from the feedback of a formalized environment, without the need for human supervision. It leverages a pre-trained natural language model to establish a policy network for theorem selection and employ Monte Carlo Tree Search for heuristic exploration. The symbolic part is a reinforcement learning environment based on geometry formalization theory and FormalGeo, which models geometric problem solving (GPS) as a Markov Decision Process (MDP). In the formal symbolic system, the symmetry of plane geometric transformations ensures the uniqueness of geometric problems when converted into states. Finally, the known conditions and objectives of the problem form the state space, while the set of theorems forms the action space. Leveraging FGeo-DRL, we have achieved readable and verifiable automated solutions to geometric problems. Experiments conducted on the formalgeo7k dataset have achieved a problem-solving success rate of 86.40%.},
+DOI = {10.3390/sym16040437}
 }
