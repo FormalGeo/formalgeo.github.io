@@ -1,0 +1,7 @@
+@inproceedings{zhang2024formal,
+title={Formal Representation and Solution of Plane Geometric Problems},
+author={Xiaokai Zhang and Na Zhu and Cheng Qin and LI Yang and Zhenbing Zeng and Tuo Leng},
+booktitle={The 4th Workshop on Mathematical Reasoning and AI at NeurIPS'24},
+year={2024},
+url={https://openreview.net/forum?id=8wDSfs1W3w}
+}

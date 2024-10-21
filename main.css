@@ -18,6 +18,7 @@ nav {
 .profile {
     display: inline-block;
     width: 180px;
+    text-align: center;
 }
 
 .profile-img {
@@ -63,4 +64,32 @@ a.icon-link {
 #div-bio {
     padding-top: 50px;
     font-size: 18px
+}
+
+#pagination {
+    margin-top: 20px;
+    text-align: center; /* 居中对齐分页数字 */
+    display: flex;
+    justify-content: center; /* 确保分页数字居中 */
+}
+
+#pagination a {
+    margin: 0 5px; /* 为分页数字添加适当的间距 */
+    color: #00447C;
+    text-decoration: none;
+}
+
+#pagination a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.paper-image {
+    display: flex;
+    flex: 0 0 25%; /* 固定宽度为 25% */
+    max-width: 25%;
+    padding: 15px; /* 间距 */
+    box-sizing: border-box; /* 包含 padding 在内计算宽度 */
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
 }
