@@ -118,17 +118,20 @@
                             FGeo-DRL: Formal geometric problem solving based on deep reinforcement learning.
                         </a></strong>
                     </li>
-
                     <li>
                         <strong><a href="https://github.com/748978460/FGeo-TP" target="_blank">
                             FGeo-TP: A Language Model-Enhanced Solver for Geometry Problems
                         </a></strong>
                     </li>
-
                     <li>
                         <strong><a href="https://github.com/BitSecret/HyperGNet" target="_blank">
                             FGeo-HyperGNet: Geometry Problem Solving Integrating Formal Symbolic System and Hypergraph
                             Neural Network
+                        </a></strong>
+                    </li>
+                    <li>
+                        <strong><a href="https://github.com/RuRuo0/GeoParser" target="_blank">
+                            FGeo-Parser: Autoformalization and Solution of Plane Geometric Problems
                         </a></strong>
                     </li>
                 </ul>
@@ -153,6 +156,18 @@
     <hr>
     <ul id="news-container">
         <li>
+            <strong>[Dec 22, 2024]</strong>
+            <strong style="color: red; ">New!</strong>
+            Paper "Diagram Formalization Enhanced Multi-Modal Geometry Problem Solver"
+            is accepted by <a href="https://2025.ieeeicassp.org/" target="_blank">ICASSP 2025</a>.
+        </li>
+        <li>
+            <strong>[Dec 19, 2024]</strong>
+            <strong style="color: red; ">New!</strong>
+            Paper "FGeo-Parser: Autoformalization and Solution of Plane Geometric Problems"
+            is accepted by <a href="https://www.mdpi.com/2073-8994/17/1/8" target="_blank">Symmetry 2024</a>.
+        </li>
+        <li>
             <strong>[Nov 2, 2024]</strong>
             <strong style="color: red; ">New!</strong>
             We have been invited to give an academic presentation at
@@ -161,7 +176,6 @@
         </li>
         <li>
             <strong>[Oct 12, 2024]</strong>
-            <strong style="color: red; ">New!</strong>
             We have been invited to give an academic presentation at
             <a href="https://jyangmath.github.io/ForICM.htm" target="_blank">ForICM 2024</a>.
         </li>
@@ -251,6 +265,31 @@
     <h3 id="Publications" style="">Publications</h3>
     <hr>
 
+    <!-- FGeo-Parser -->
+    <div class="row">
+        <div class="paper-image">
+            <img class="img-fluid img-rounded" src="imgs/zhu2024fgeoparser.png" alt="">
+        </div>
+        <div class="col-md-9">
+            <strong> FGeo-Parser: Autoformalization and Solution of Plane Geometric Problems </strong>
+            <br>
+            <em>Na Zhu, Xiaokai Zhang, Qike Huang, Fangzhen Zhu, Zhenbing Zeng, Tuo Leng</em>
+            <br>
+            In this paper, we propose an enhanced geometric problem parsing method called FGeo-Parser, which converts
+            problem diagrams and text into the formal language of the FormalGeo. Specifically, diagram parser leverages
+            the BLIP to generate the construction CDL and image CDL, while text parser employs the T5 to produce the
+            text CDL and goal CDL where these neural networks are both based on a symmetric encoder–decoder
+            architecture. It also supports reverse formalization to generate human-like solutions, reflecting the
+            symmetry between parsing and generating.
+            <br>
+            <strong><a href="https://www.mdpi.com/2073-8994/17/1/8" target="_blank">Symmetry 2024&nbsp;</a></strong>
+            <a href="papers/zhu2024fgeoparser.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
+            <a href="https://github.com/RuRuo0/GeoParser" target="_blank"> <small>[Project]&nbsp;</small></a>
+            <a href="bibs/zhu2024fgeoparser.bib" target="_blank"> <small>[BibTex]</small></a><br>
+        </div>
+    </div>
+    <hr>
+
     <!-- formalgeo7k -->
     <div class="row">
         <div class="paper-image">
@@ -269,7 +308,7 @@
                 NeurIPS 2024 Workshop on MATH-AI&nbsp;</a></strong>
             <a href="papers/zhang2024formal.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
             <a href="https://github.com/FormalGeo/FormalGeo" target="_blank"> <small>[Project]&nbsp;</small></a>
-            <a href="bibs/zhang2024formal.txt" target="_blank"> <small>[BibTex]</small></a><br>
+            <a href="bibs/zhang2024formal.bib" target="_blank"> <small>[BibTex]</small></a><br>
         </div>
     </div>
     <hr>
@@ -292,7 +331,7 @@
             <strong><a href="https://arxiv.org/abs/2402.11461" target="_blank">arxiv: 2402.11461&nbsp;</a></strong>
             <a href="papers/zhang2024fgeohypergnet.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
             <a href="https://github.com/BitSecret/HyperGNet" target="_blank"> <small>[Project]&nbsp;</small></a>
-            <a href="bibs/zhang2024fgeohypergnet.txt" target="_blank"> <small>[BibTex]</small></a><br>
+            <a href="bibs/zhang2024fgeohypergnet.bib" target="_blank"> <small>[BibTex]</small></a><br>
         </div>
     </div>
     <hr>
@@ -314,7 +353,7 @@
             <strong><a href="https://www.mdpi.com/2073-8994/16/4/437" target="_blank">Symmetry 2024&nbsp;</a></strong>
             <a href="papers/zou2024fgeodrl.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
             <a href="https://github.com/PersonNoName/FGeoDRL" target="_blank"> <small>[Project]&nbsp;</small></a>
-            <a href="bibs/zou2024fgeodrl.txt" target="_blank"> <small>[BibTex]</small></a><br>
+            <a href="bibs/zou2024fgeodrl.bib" target="_blank"> <small>[BibTex]</small></a><br>
         </div>
     </div>
     <hr>
@@ -336,7 +375,7 @@
             <strong><a href="https://www.mdpi.com/2073-8994/16/4/421" target="_blank">Symmetry 2024&nbsp;</a></strong>
             <a href="papers/he2024fgeotp.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
             <a href="https://github.com/748978460/FGeo-TP" target="_blank"> <small>[Project]&nbsp;</small></a>
-            <a href="bibs/he2024fgeotp.txt" target="_blank"> <small>[BibTex]</small></a><br>
+            <a href="bibs/he2024fgeotp.bib" target="_blank"> <small>[BibTex]</small></a><br>
         </div>
     </div>
     <hr>
@@ -359,7 +398,7 @@
             <strong><a href="https://www.mdpi.com/2073-8994/16/4/404" target="_blank">Symmetry 2024&nbsp;</a></strong>
             <a href="papers/zhang2024fgeosss.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
             <a href="https://github.com/BitSecret/FGPS" target="_blank"> <small>[Project]&nbsp;</small></a>
-            <a href="bibs/zhang2024fgeosss.txt" target="_blank"> <small>[BibTex]</small></a><br>
+            <a href="bibs/zhang2024fgeosss.bib" target="_blank"> <small>[BibTex]</small></a><br>
         </div>
     </div>
     <hr>
@@ -383,7 +422,7 @@
             <strong><a href="https://arxiv.org/abs/2310.18021" target="_blank">arxiv:2310.18021&nbsp;</a></strong>
             <a href="papers/zhang2024formalgeo.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
             <a href="https://github.com/BitSecret/FGPS" target="_blank"> <small>[Project]&nbsp;</small></a>
-            <a href="bibs/zhang2024formalgeo.txt" target="_blank"> <small>[BibTex]</small></a><br>
+            <a href="bibs/zhang2024formalgeo.bib" target="_blank"> <small>[BibTex]</small></a><br>
         </div>
     </div>
     <hr>

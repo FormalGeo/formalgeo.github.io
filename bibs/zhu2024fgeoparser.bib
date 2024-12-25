@@ -1,0 +1,13 @@
+@article{zhu2024fgeoparser,
+AUTHOR = {Zhu, Na and Zhang, Xiaokai and Huang, Qike and Zhu, Fangzhen and Zeng, Zhenbing and Leng, Tuo},
+TITLE = {FGeo-Parser: Autoformalization and Solution of Plane Geometric Problems},
+JOURNAL = {Symmetry},
+VOLUME = {17},
+YEAR = {2025},
+NUMBER = {1},
+ARTICLE-NUMBER = {8},
+URL = {https://www.mdpi.com/2073-8994/17/1/8},
+ISSN = {2073-8994},
+ABSTRACT = {Automatic geometric problem-solving is an active and challenging subfield at the intersection of AI and mathematics, where geometric problem parsing plays a critical role. It involves converting geometric diagram and text into certain formal language. Due to the complexity of geometric shapes and the diversity of geometric relationships, geometric problem parsing demands that the parser exhibit cross-modal comprehension and reasoning capabilities. In this paper, we propose an enhanced geometric problem parsing method called FGeo-Parser, which converts problem diagrams and text into the formal language of the FormalGeo. It also supports reverse formalization to generate human-like solutions, reflecting the symmetry between parsing and generating. Specifically, diagram parser leverages the BLIP to generate the construction CDL and image CDL, while text parser employs the T5 to produce the text CDL and goal CDL where these neural networks are both based on a symmetric encoder–decoder architecture. With the assistance of a theorem predictor, these CDLs were automatically parsed and step-by-step reasoning was executed within FGPS. Finally, the reasoning process was input into a solution generator, which subsequently produced a human-like solution process. Additionally, we re-annotated problem diagrams and text based on the FormalGeo7K dataset. The formalization experiments on the new dataset achieved a match accuracy of 91.51% and a perfect accuracy of 56.47%, while the combination with the theorem predictor achieved a problem-solving accuracy of 63.45%.},
+DOI = {10.3390/sym17010008}
+}
