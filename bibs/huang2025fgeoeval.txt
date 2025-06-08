@@ -1,0 +1,13 @@
+@Article{huang2025fgeoeval,
+    AUTHOR = {Huang, Qike and Zhang, Xiaokai and Zhu, Na and Zhu, Fangzhen and Leng, Tuo},
+    TITLE = {FGeo-Eval: Evaluation System for Plane Geometry Problem Solving},
+    JOURNAL = {Symmetry},
+    VOLUME = {17},
+    YEAR = {2025},
+    NUMBER = {6},
+    ARTICLE-NUMBER = {902},
+    URL = {https://www.mdpi.com/2073-8994/17/6/902},
+    ISSN = {2073-8994},
+    ABSTRACT = {Plane geometry problem solving has been a long-term challenge in mathematical reasoning and symbolic artificial intelligence. With the continued advancement of automated methods, the need for large-scale datasets and rigorous evaluation frameworks has become increasingly critical for benchmarking and guiding system development. However, existing resources often lack sufficient scale, systematic difficulty modeling, and quantifiable, process-based evaluation metrics. To address these limitations, we propose FGeo-Eval, a comprehensive evaluation system for plane geometry problem solving, and introduce the FormalGeo30K dataset, an extended dataset derived from FormalGeo7K. The evaluation system includes a problem completion rate metric PCR to assess partial progress, theorem weight computation to quantify knowledge importance, and a difficulty coefficient based on reasoning complexity. By analyzing problem structures and solution dependencies, this system enables fine-grained difficulty stratification and objective performance measurement. Concurrently, FormalGeo30K expands the dataset to 30,540 formally annotated problems, supporting more robust model training and evaluation. Experimental results demonstrate that the proposed metrics effectively evaluate problem difficulty and assess solver capabilities. With the augmented dataset, the average success rate across all difficulty levels for the FGeo-HyperGNet model increases from 77.43% to 85.01%, while the average PCR increases from 88.57% to 91.79%. These contributions provide essential infrastructure for advancing plane geometry reasoning systems, offering standardized benchmarks for model development and guiding optimization of geometry-solving models.},
+    DOI = {10.3390/sym17060902}
+}
