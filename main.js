@@ -1,60 +1,87 @@
-// 每页显示的新闻数量
-const newsPerPage = 10;
-let currentPage = 1;
+function initNewsPagination({containerSelector, paginationSelector, itemsPerPage, initialPage}) {
+    // 私有状态（每个调用都有自己的一份）
+    let currentPage = initialPage;
+    const container = document.querySelector(containerSelector);
+    const pagination = document.querySelector(paginationSelector);
+    const allItems = Array.from(container.querySelectorAll('li'));
 
-// 获取所有的新闻条目
-const allNewsItems = Array.from(document.querySelectorAll('#news-container li'));
-
-// 隐藏所有新闻条目
-function hideAllNews() {
-    allNewsItems.forEach(item => {
-        item.style.display = 'none';
-    });
-}
-
-// 渲染新闻
-function renderNews(page) {
-    hideAllNews();  // 先隐藏所有新闻条目
-
-    const startIndex = (page - 1) * newsPerPage;
-    const endIndex = page * newsPerPage;
-    const newsToShow = allNewsItems.slice(startIndex, endIndex);
-
-    // 显示当前页的新闻条目
-    newsToShow.forEach(item => {
-        item.style.display = 'block';
-    });
-}
-
-// 渲染分页导航
-function renderPagination() {
-    const totalPages = Math.ceil(allNewsItems.length / newsPerPage);
-    const pagination = document.getElementById('pagination');
-    pagination.innerHTML = '';  // 清空之前的分页
-
-    // 创建分页按钮
-    for (let i = 1; i <= totalPages; i++) {
-        const pageLink = document.createElement('a');
-        pageLink.textContent = i;
-        pageLink.href = "#";  // 使用 # 来防止跳转
-        if (i === currentPage) {
-            pageLink.style.fontWeight = 'bold';  // 简单加粗当前页码
-        }
-        pageLink.addEventListener('click', function(event) {
-            event.preventDefault();
-            currentPage = i;
-            renderNews(currentPage);
-            renderPagination();  // 更新分页导航状态
+    // 隐藏所有条目
+    function hideAll() {
+        allItems.forEach(item => {
+            item.style.display = 'none';
         });
-        pagination.appendChild(pageLink);
+    }
 
-        // 在页码之间加上空格
-        if (i < totalPages) {
-            pagination.appendChild(document.createTextNode(' '));
+    // 渲染新闻
+    function renderNews(page) {
+        hideAll();
+
+        const start = (page - 1) * itemsPerPage;
+        const end = page * itemsPerPage;
+
+        allItems.slice(start, end).forEach(item => {
+            item.style.display = 'block';
+        });
+    }
+
+    // 渲染分页
+    function renderPagination() {
+        const totalPages = Math.ceil(allItems.length / itemsPerPage);
+        pagination.innerHTML = '';
+
+        for (let i = 1; i <= totalPages; i++) {
+            const link = document.createElement('a');
+            link.href = '#';
+            link.textContent = i;
+
+            if (i === currentPage) {
+                link.style.fontWeight = 'bold';
+            }
+
+            link.addEventListener('click', e => {
+                e.preventDefault();
+                currentPage = i;
+                renderNews(currentPage);
+                renderPagination();
+            });
+
+            pagination.appendChild(link);
+
+            if (i < totalPages) {
+                pagination.appendChild(document.createTextNode(' '));
+            }
         }
     }
+
+    // 初始化
+    renderNews(currentPage);
+    renderPagination();
 }
 
-// 初次渲染
-renderNews(currentPage);
-renderPagination();
+initNewsPagination({
+    containerSelector: '#news-container',
+    paginationSelector: '#news-pagination',
+    itemsPerPage: 10,
+    initialPage: 1
+});
+
+initNewsPagination({
+    containerSelector: '#publications-container',
+    paginationSelector: '#publications-pagination',
+    itemsPerPage: 5,
+    initialPage: 1
+});
+
+initNewsPagination({
+    containerSelector: '#extended-container',
+    paginationSelector: '#extended-pagination',
+    itemsPerPage: 8,
+    initialPage: 1
+});
+
+initNewsPagination({
+    containerSelector: '#competitive-container',
+    paginationSelector: '#competitive-pagination',
+    itemsPerPage: 5,
+    initialPage: 1
+});

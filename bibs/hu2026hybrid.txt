@@ -1,0 +1,13 @@
+@article{he2024fgeotp,
+    AUTHOR = {Hu, Zhengyu and Zhang, Xiaokai and Qin, Cheng and Li, Yang and Leng, Tuo},
+    TITLE = {A Hybrid Framework for Automated Geometric Problem-Solving by Integrating Formal Symbolic Systems and Deep Learning},
+    JOURNAL = {Symmetry},
+    VOLUME = {18},
+    YEAR = {2026},
+    NUMBER = {4},
+    ARTICLE-NUMBER = {592},
+    URL = {https://www.mdpi.com/2073-8994/18/4/592},
+    ISSN = {2073-8994},
+    ABSTRACT = {Geometric problem-solving (GPS) has been a long-standing challenge in the fields of formal mathematics and artificial intelligence. To address the limitations of unidirectional approaches, we developed a neuro-symbolic system that integrates forward and backward reasoning. The neural component employs a gating-enhanced attention network to select candidate theorems, guiding the heuristic search and pruning irrelevant branches. The symbolic component is a bidirectional solver built on FormalGeo, which performs rigorous geometric relational reasoning and algebraic computation. The neural component predicts the theorems based on the current problem state, while the symbolic component applies these theorems and updates the problem state. These two parts interact iteratively until the problem is solved. The solving process is organized as a graph structure where facts and goals serve as nodes and theorems as edges, thereby generating a human-readable solution. The proposed neuro-symbolic system achieved an 89.63% problem-solving success rate (PSSR) on the FormalGeo7K dataset, surpassing the previous best result.},
+    DOI = {10.3390/sym18040592}
+}
