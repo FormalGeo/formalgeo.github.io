@@ -168,3 +168,9 @@ ul {
     padding: 0;
     list-style: none; /* 可选：去掉前面的圆点或数字 */
 }
+
+.my-footer {
+    display: flex; /* 开启flex布局 */
+    align-items: center; /* 垂直居中对齐 */
+    justify-content: space-between; /* 左右两端对齐 */
+}
