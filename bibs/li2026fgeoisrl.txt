@@ -1,0 +1,16 @@
+@article{li2026fgeoisrl,
+    AUTHOR = {Li, Yang and Zhang, Xiaokai and Qin, Cheng and Hu, Zhengyu and Leng, Tuo},
+    TITLE = {FGeo-ISRL: A MCTS-Enhanced Deep Reinforcement Learning System for Plane Geometry Problem-Solving via Inverse Search},
+    JOURNAL = {Symmetry},
+    VOLUME = {18},
+    YEAR = {2026},
+    NUMBER = {4},
+    ARTICLE-NUMBER = {628},
+    URL = {https://www.mdpi.com/2073-8994/18/4/628},
+    ISSN = {2073-8994},
+    ABSTRACT = {Geometric problem-solving has always been a great challenge in the field of deductive reasoning and artificial intelligence. Symmetry is a defining characteristic of geometric shapes and properties. Consequently, the application of symmetry principles to geometric reasoning arises as a natural choice. To address the efficiency degradation and limited generalization, we propose FGeo-ISRL, a neural-symbolic inverse search framework whose core is the synergistic integration of a task-fine-tuned large language model and Monte Carlo Tree Search. Under the formal framework of FormalGeo, geometric theorems are iteratively applied starting from the given conditions and the target conclusion, in order to infer the necessary supporting premises. The large language model simultaneously serves as a policy network and a value network, guiding theorem application decisions and evaluating intermediate proof states, whereas the Monte Carlo Tree Search performs structured exploration over the state space, both training for policy refinement and inference for online search. The reinforcement learning agent is trained with a hybrid reward scheme, combining immediate feedback from the value difference and a sparse success reward. Experiments demonstrate the effectiveness and correctness of FGeo-ISRL. It not only achieves a Single-Step Theorem Accuracy of 90.2% and a Geometric Problem-Solving Accuracy of 83.14%, but also ensures that every step of the proof process remains readable, verifiable, and traceable.},
+    DOI = {10.3390/sym18040628}
+}
+
+
+
