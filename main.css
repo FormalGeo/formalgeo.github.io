@@ -174,3 +174,10 @@ ul {
     align-items: center; /* 垂直居中对齐 */
     justify-content: space-between; /* 左右两端对齐 */
 }
+
+#img-wechat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25%;
+}
