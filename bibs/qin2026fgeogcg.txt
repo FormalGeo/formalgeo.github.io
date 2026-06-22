@@ -1,0 +1,13 @@
+@article{qin2026fgeogcg,
+    AUTHOR = {Qin, Cheng and Zhang, Xiaokai and Yang, Yuchang and Sun, Zhenhai and Li, Yang and Hu, Zhengyu and Leng, Tuo},
+    TITLE = {FGeo-GCG: Hybrid Validation-Enhanced Geometric Data Synthesis with Human-like Proof},
+    JOURNAL = {Symmetry},
+    VOLUME = {18},
+    YEAR = {2026},
+    NUMBER = {6},
+    ARTICLE-NUMBER = {1035},
+    URL = {https://www.mdpi.com/2073-8994/18/6/1035},
+    ISSN = {2073-8994},
+    ABSTRACT = {Euclidean plane geometry problem solving is a challenging benchmark for artificial intelligence because it requires complex diagram understanding, symbolic deduction, and multi-step reasoning. Constructing effective datasets for this task requires geometric instances that are realizable, non-degenerate, structurally diverse, and paired with human-like proofs. However, existing random or template-based generation pipelines often produce redundant, singular, or infeasible candidates, causing substantial computation to be spent before useful reasoning trajectories can be extracted. To address these limitations, we present FGeo-GCG, a hybrid geometric data synthesis framework built on the FormalGeo-V2 deductive engine. It formulates Geometric Configuration Generation as an incremental linear construction process that decomposes global constraint satisfaction into local construction steps, thereby pruning invalid branches during the generation process. To improve reliability and efficiency, FGeo-GCG combines two validation stages: a safe stochastic Jacobian-rank filter estimates whether local candidate constraints contribute independent algebraic restrictions, and progressive geometric validation checks whether the resulting partial construction remains realizable and non-degenerate. By encoding incidence-, metric-, and symmetry-related dependencies within unified constraint graphs, the framework also connects geometric data synthesis with structural symmetry analysis. Validated constraint graphs are then converted into problem instances through forward deduction, goal decomposition, and multi-dimensional complexity filtering, producing proof targets without manual annotation. Experiments show that the full validation pipeline reduces the failure rate for highly constrained instances. The resulting FGeo-GCG dataset contains more than 50,000 formally validated plane geometric configurations and provides engine-derived reasoning traces and targets for future training and evaluation of neuro-symbolic geometry problem-solving systems.},
+    DOI = {10.3390/sym18061035}
+}
