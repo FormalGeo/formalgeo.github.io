@@ -1,4 +1,4 @@
-@article{he2024fgeotp,
+@article{hu2026hybrid,
     AUTHOR = {Hu, Zhengyu and Zhang, Xiaokai and Qin, Cheng and Li, Yang and Leng, Tuo},
     TITLE = {A Hybrid Framework for Automated Geometric Problem-Solving by Integrating Formal Symbolic Systems and Deep Learning},
     JOURNAL = {Symmetry},
