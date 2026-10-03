@@ -1,1 +1,7 @@
-comming soon...
+@inproceedings{zhang2026agentic,
+    title={Agentic Geometry Problem Solving via Human-like Parallel Bidirectional Reasoning},
+    author={Zhang, Xiaokai and Xia, Ruiqing and Chen, Liang and Sun, Zhenhai and Yang, Yuchang and Leng, Tuo},
+    booktitle={The Fortieth Annual Conference on Neural Information Processing Systems},
+    year={2026},
+    url={https://openreview.net/forum?id=uPyHEd0byJ}
+}
